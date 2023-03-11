@@ -9,7 +9,6 @@ void setup() {
 }
 
 void loop() {
-   
   DigiKeyboard.update();
   DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.delay(3000);
