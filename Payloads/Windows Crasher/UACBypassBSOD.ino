@@ -5,7 +5,6 @@ void setup() {
 }
 
 void loop() {
-   
   DigiKeyboard.update();
   DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.delay(3000);
@@ -25,5 +24,4 @@ void loop() {
   DigiKeyboard.delay(90000);
   digitalWrite(1, LOW); 
   DigiKeyboard.delay(5000);
-  
 }
