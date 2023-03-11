@@ -2,7 +2,6 @@
 // This scripts Runs PS as admin and kills all process, so user should have admin level privileges for successful crash.
 
 #include "DigiKeyboard.h"
-
 void setup() {
   pinMode(1, OUTPUT); //LED on Model A 
 }
