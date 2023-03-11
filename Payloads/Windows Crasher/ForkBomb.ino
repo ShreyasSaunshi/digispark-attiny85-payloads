@@ -4,8 +4,7 @@ void setup() {
   pinMode(1, OUTPUT); //LED on Model A 
 }
 
-void loop() {
-   
+void loop() { 
   DigiKeyboard.update();
   DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.delay(3000);
